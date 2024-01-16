@@ -1,15 +1,33 @@
 main img{
  width: 150px;
  height:auto;
+ box-sizing: border-box;
+ padding: 2px;
+ box-shadow: 0 0 30px #333;
+ border: 1px solid steelblue;
+
+
 }
 main{
  max-width: 840px
+}
+nav a {
+ color:white;
+ display:block;
+ padding: 18px;
+}
+nav{
+ background-color: steelblue;
+ padding: 10px;
+}
+h1{
+ color: steelblue;
 }
 aside{
  width: 20rem;
  margin: 1rem;
  border: 1px solid rgba(0, 0, 0, 0.2);
- padding: 1rem;
+ padding: 1em;
  background-color: #eee;
  color:#333;
  text-align: center;
