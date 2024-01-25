@@ -11,7 +11,7 @@ main img{
  box-shadow: 0 0 30px #333;
  border: 1px solid steelblue;
  float: right;
- margin: 0 0 1rem 2rem
+ margin: 0 0 1rem 3rem;
 }
 main{
  max-width: 840px
