@@ -1,0 +1,37 @@
+fieldset{
+ background-color: rgb(163, 167, 167);
+ width:60%;
+}
+button, #q1, #q2, #q3, #q4{
+ font-size: 100%;
+ font-family: inherit;
+ width: 100%;
+ box-sizing: border-box;
+ padding: 12px 15px;
+ border-radius: 5px;
+ margin: 8px 0;
+}
+h1{
+ margin-left:3rem;
+color:rgb(47, 47, 248)
+}
+.quiz{
+ display:block;
+ align-items: center;
+ justify-content: center;
+}
+
+#dis{
+ width: 25rem;
+ color: rgb(234, 240, 240);
+ background-color: black;
+ margin: 0.5rem  0 0.5rem 5rem;
+ padding: 10px;
+}
+
+button{
+ background-color: rgb(58, 58, 248);
+ font-size: 20px;
+ border: none;
+ color: aliceblue;
+}
