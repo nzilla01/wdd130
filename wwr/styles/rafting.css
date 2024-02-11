@@ -68,7 +68,7 @@ nav a:hover{
  }
   iframe{
   display: block;
-  width: 150px;
+  width: 100%;
   height: auto;
   border: 0;
  }
@@ -105,7 +105,7 @@ article p{
   align-items: stretch;
   gap:10px;
 }
-.grid2 .history img{
+.grid2 img{
   max-width:100%;
   height: auto; 
 
@@ -157,3 +157,36 @@ footer{
     position: absolute;
     right:1rem
   }
+  .contact{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr ;
+    grid-gap: 10px;
+    align-items: stretch;
+  }
+
+  #username, #email, textarea{
+    width:100%;
+    padding: 5px;
+  }
+  form{
+    padding:10px 3px 10px 3px;
+    line-height: 2rem;
+  }
+  label{
+    font-weight: 700;
+    font-size: 1rem;
+  }
+  h3{
+    text-align: center;
+  }
+  button{
+    width:100%;
+    font-size: larger;
+    font-weight: 700;
+    height: 2rem;
+    margin: 5px 0 5px 0 ;
+  }
+.con{
+  margin-top: 2rem;
+}
+  
