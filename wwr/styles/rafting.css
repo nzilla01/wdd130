@@ -23,6 +23,7 @@ header{
   background: whitesmoke;
  }
 
+
 header a{
  color:var(--accent2-color);
  font-size: 20px;
@@ -65,7 +66,12 @@ nav a:hover{
   width: 100%;
   height: auto;
  }
-
+  iframe{
+  display: block;
+  width: 150px;
+  height: auto;
+  border: 0;
+ }
 article .hero2{
  width: 150px;
  height: auto;
