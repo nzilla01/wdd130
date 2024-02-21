@@ -113,7 +113,9 @@ article p{
 
 /* styling of the 3 section adventure awaits */
 figcaption{
-   text-align: center;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
+   text-align: center;       
+   justify-content: space-between;  
+   margin: 0 1rem 0 1rem;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
 }
 
 .adven .flex{
@@ -125,7 +127,7 @@ figcaption{
 section .flex img{
   width: 150px;
   height:auto;
-  margin:1rem 1rem 0 1rem
+  margin:1rem 1rem 0 1rem;
 }
 
 .adven{
@@ -189,4 +191,24 @@ footer{
 .con{
   margin-top: 2rem;
 }
-  
+ .section h2{
+  margin: 2rem 0 1rem 0;
+  text-align: center;
+ }
+.btn{
+  width: 30%;
+  background-color: #7FBEEB;
+  border-radius: 7px;
+  position: relative;
+  left: 40%;
+  margin: 2rem 0 2rem 0;
+}
+.section {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  max-width: 1800px;
+}
+.section img{
+ margin: 1rem 3rem 1rem 3rem;
+}
