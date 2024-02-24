@@ -195,25 +195,45 @@ footer{
   margin: 2rem 0 1rem 0;
   text-align: center;
  }
-.btn{
-  width: 30%;
-  background-color: #7FBEEB;
+.btn1{
+  width: 40%;
+  background-color: #AFBED1;
+  border:none;
+  margin: 1.5rem 0 2rem 0;
   border-radius: 7px;
+}
+.btn3{
+  width: 40%;
+  background-color: #AFBED1;
+  border-radius: 7px;
+  border: none;
+  margin: 3rem 0 2rem 0;
+}
+.btn2{
+  width: 40%;
+  background-color:#AFBED1;
+  border-radius: 7px;
+  border: none;
+  margin: 3.5rem 0 1rem 0;
+}
+.section .grid5 img{
+  width: 180px;
+  height: auto;
+  margin: 1rem 0 1rem 0 ;
+}
+.grid5{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap:10px;
   position: relative;
-  left: 40%;
-  margin: 2rem 0 2rem 0;
 }
-.section {
-  display: block;
-  justify-content: center;
-  align-items: center;
-  max-width: 1800px;
+.col1, .col2, .col3{
+justify-content: center;
+text-align: center;
 }
-.section img{
- margin: 1rem 3rem 1rem 3rem;
-}
-
-a #envelope{
- font-size: 2rem;
- float: right;
+#envelope{
+  position: relative;;
+  font-size:2rem;
+  left:95%;
+  bottom:25px
 }
